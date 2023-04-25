@@ -21,5 +21,8 @@
     "singleQuote": true,
     "arrowParens": "always",
     "printWidth": 120
+  },
+  "dependencies": {
+    "tippy.js": "^6.3.7"
   }
 }

@@ -7,7 +7,71 @@
     <title>Vite + TS</title>
   </head>
   <body>
-    <div id="app"></div>
+    <header class="header">
+      <a class="header__logo logo" href="#">
+        <img src="src/images/riot-games-logo.svg" alt="Riot games logo" />
+        <hr class="logo__hr" />
+        <img src="src/images/valorant-logo.svg" alt="Riot games logo" />
+      </a>
+      <nav class="header__nav nav">
+        <div class="nav__item">
+          <a href="#" class="nav__link">Game</a>
+        </div>
+        <div class="nav__item">
+          <a href="#" class="nav__link">Champions</a>
+        </div>
+        <div class="nav__item">
+          <a href="#" class="nav__link"
+            >News <img class="nav__icon" src="src/images/arrow-drop-down.svg" alt="Arrow drop down"
+          /></a>
+          <nav class="nav nav_submenu">
+            <div class="nav__item">
+              <a href="#" class="nav__link">Article 1</a>
+            </div>
+            <div class="nav__item">
+              <a href="#" class="nav__link">Article 2</a>
+            </div>
+            <div class="nav__item">
+              <a href="#" class="nav__link">Article 3</a>
+            </div>
+          </nav>
+        </div>
+        <div class="nav__item">
+          <a href="#" class="nav__link">Patch notes</a>
+        </div>
+        <div class="nav__item">
+          <a href="#" class="nav__link"
+            >Discover <img class="nav__icon" src="src/images/arrow-drop-down.svg" alt="Arrow drop down"
+          /></a>
+          <nav class="nav nav_submenu">
+            <div class="nav__item">
+              <a href="#" class="nav__link">Discover 1</a>
+            </div>
+            <div class="nav__item">
+              <a href="#" class="nav__link">Discover 2</a>
+            </div>
+          </nav>
+        </div>
+        <div class="nav__item">
+          <a href="#" class="nav__link">Esports</a>
+        </div>
+        <div class="nav__item">
+          <a href="#" class="nav__link">Universe</a>
+        </div>
+        <div class="nav__item">
+          <a href="#" class="nav__link">Shop</a>
+        </div>
+        <div class="nav__item">
+          <a href="#" class="nav__link">Support</a>
+        </div>
+      </nav>
+      <a class="header__profile profile" href="#">
+        <img src="src/images/avatar.png" alt="Avatar" class="profile__avatar" />
+        <div class="profile__name">
+          Unepickid <img class="profile__icon" src="src/images/arrow-drop-down.svg" alt="Arrow drop down" />
+        </div>
+      </a>
+    </header>
     <script type="module" src="/src/scripts/main.ts"></script>
   </body>
 </html>

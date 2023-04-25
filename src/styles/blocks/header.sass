@@ -1,0 +1,43 @@
+.header
+  display: grid
+  grid-template-columns: auto 1fr auto
+  align-items: center
+  gap: 86px
+  background-color: var(--secondary)
+  color: white
+  padding: 46px 73px
+
+  +xxl-block
+    gap: 50px
+
+  +xl-block
+    padding: 46px 50px
+
+  +lg-block
+    grid-template-columns: 1fr 1fr
+
+  +xs-block
+    grid-template-columns: 1fr
+    padding: 46px 15px
+
+.header__logo
+  +xs-block
+    margin: 0 auto
+
+.header__nav
+  +lg-block
+    order: 1
+    grid-column: span 2
+    justify-content: center
+
+  +xs-block
+    flex-direction: column
+    grid-column: span 1
+    align-items: center
+
+.header__profile
+  +lg-block
+    margin-left: auto
+
+  +xs-block
+    margin-right: auto
