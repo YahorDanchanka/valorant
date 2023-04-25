@@ -23,6 +23,7 @@
     "printWidth": 120
   },
   "dependencies": {
+    "swiper": "^9.2.4",
     "tippy.js": "^6.3.7"
   }
 }

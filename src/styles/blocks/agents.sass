@@ -1,0 +1,52 @@
+.agents
+  background: var(--primary) url('@/images/background.png') no-repeat center center / cover
+  padding-top: 113px
+  position: relative
+  font-size: 1rem
+
+  .agents__slider
+    padding-bottom: 153px
+    padding-left: 20%
+    padding-right: 70px
+
+    .swiper-wrapper
+      padding-left: 23px
+
+    +lg-block
+      padding-left: 10%
+
+    +xs-block
+      padding-left: 15px
+      padding-right: 60px
+
+.agents__title
+  position: absolute
+  font-family: 'Druk Wide', sans-serif
+  letter-spacing: 0.1em
+  text-transform: uppercase
+  font-size: 9.75em
+  transform: rotate(90deg)
+  transform-origin: 0 0
+  top: 120px
+  line-height: 0.7em
+  left: calc(0.7em + 7vw)
+  background-clip: text
+  -webkit-background-clip: text
+  color: transparent
+  -webkit-text-stroke: 2px white
+
+  +lg-block
+    font-size: 7em
+    left: 0.8em
+
+  +md-block
+    transform: none
+    transform-origin: initial
+    top: 0
+    left: 5vw
+
+  +sm-block
+    font-size: 5em
+
+  +xs-block
+    font-size: 14vw

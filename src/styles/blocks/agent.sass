@@ -1,0 +1,58 @@
+.agent
+  background-color: var(--secondary)
+  position: relative
+  width: 100%
+  min-height: 990px
+  font-size: 1rem
+  letter-spacing: 0.1em
+  font-family: 'Druk Wide', sans-serif
+
+  +xs-block
+    font-size: 0.8rem
+    min-height: 600px
+
+.agent__player
+  position: absolute
+  left: 0
+  top: 0
+  pointer-events: none
+  width: 100%
+  height: 100%
+  object-fit: cover
+  user-select: none
+  object-position: top center
+
+.agent__name
+  font-weight: 500
+  font-size: 4.5em
+  background-clip: text
+  -webkit-background-clip: text
+  color: transparent
+  -webkit-text-stroke: 2px white
+  position: absolute
+  left: 45px
+  top: 40px
+  transform: rotate(90deg)
+  transform-origin: 0 0
+  text-transform: uppercase
+
+.agent__location
+  color: var(--primary)
+  font-weight: 500
+  font-size: 1.5em
+  position: absolute
+  transform: rotate(90deg)
+  transform-origin: 0 0
+  left: 70px
+  top: 40px
+  width: 100%
+
+.agent__abilities
+  position: absolute
+  background-color: var(--secondary)
+  padding: 19px 42px
+  border: 2px solid #F8F8F8
+  left: 31px
+  width: 100%
+  bottom: -35px
+  text-align: center
