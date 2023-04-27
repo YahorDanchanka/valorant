@@ -1,0 +1,69 @@
+.ability
+  display: grid
+  grid-template-columns: 3fr 1fr
+  border: 2px solid black
+  gap: 43px
+  font-family: 'Druk Wide', sans-serif
+  font-size: 1rem
+  font-weight: 500
+  padding: 1.9375em 4.5em 1.9375em 3.625em
+  position: relative
+  background: #F8F8F8
+
+  +sm-block
+    grid-template-columns: 1fr 140px
+
+  +xs-block
+    grid-template-columns: 1fr
+
+  +xs-block
+    font-size: 0.8rem
+    padding: 1.9375em 3em 1.9375em 3em
+
+.ability__title
+  font-size: 2.5em
+  color: var(--gray)
+  margin-bottom: 32px
+  text-transform: uppercase
+
+  +xs-block
+    font-size: 2em
+
+.ability__subtitle
+  font-size: 1.5em
+  margin-bottom: 32px
+
+.ability__description
+  font-family: 'Montserrat', sans-serif
+  font-weight: 400
+  letter-spacing: 0.1em
+  max-width: 315px
+
+.ability__logo
+  text-align: center
+  position: relative
+  display: flex
+  justify-content: center
+  align-items: center
+
+  &::before
+    content: ''
+    background-color: var(--primary)
+    display: block
+    width: 100%
+    position: absolute
+    left: 0
+    bottom: 0
+    transform: translate(-40px, 0)
+    margin-bottom: -1.9375em
+    aspect-ratio: 1 / 1
+
+  +xs-block
+    max-width: 140px
+    margin: 0 auto
+
+.ability__img
+  max-width: 100%
+  z-index: 2
+  margin-left: auto
+  position: relative
